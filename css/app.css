@@ -1,0 +1,430 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header
+{
+   
+    width: 100%;
+    height: 120px;
+    background-color: white;
+}
+.header1
+{
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 25px;
+}
+#date
+{
+
+    
+    margin-left: 150px;
+}
+.contact
+{
+    margin-left: 200px;
+}
+.header1 ul
+{
+    list-style-type: none;
+    
+}
+.contact ul li{
+ float: left;
+}
+
+.contact ul li a{  
+    color: azure;
+     display: block;
+    padding-left: 20px;
+    text-decoration: none;
+}
+.contact ul li a:hover
+{
+    color:brown; 
+}
+.socialmedia
+{
+    margin-left: 300px;
+ 
+}
+
+.fa-facebook,.fa-twitter,.fa-youtube
+{
+    padding-left: 10px;
+    color: white;
+   
+}
+
+.logo
+{
+    float: left;
+      margin-top:10px;
+    display: flex;
+    margin-left: 150px;
+}
+.logo span
+{
+    font-size: 30px;
+    padding-left: 20px;
+}
+.header2
+{
+    margin-top: 10px;
+    display: flex;
+}
+.arabCoder
+{
+  margin-left: 600px;
+}
+.header3
+{
+    display: flex;
+    margin-left:150px;
+    
+}
+.header3 ul
+{
+    list-style-type: none;
+}
+.header3 ul li
+{
+    float: left;
+}
+.header3 ul li a
+{
+    color: dimgrey; 
+    display: block;
+    padding-left: 30px;
+    text-decoration: none;
+}
+.header3 form
+{
+    margin-left: 400px;
+
+}
+.hrline
+{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+input [type=text]
+{
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    padding: 12px 20px 12px 40px;
+}
+.containerCenetr
+{
+    margin-top: 50px;
+}
+
+.fourImg 
+{  height: 500px;
+    margin-left: 150px;
+    width: 500px;
+    display: flex;
+}
+.fourImg img
+{
+    width: 500px;
+    height: 400px;
+}
+.threeImg
+{
+    margin-left: 20px;
+    width: 200px;
+}
+.threeImg img
+{
+    width: 500;
+    height: 200px;
+}
+.twoImg
+{
+  
+    display: flex;
+}
+.twoImg img
+{
+    
+    width: 250px;
+    height: 200px;
+}
+.imgfour
+{
+    padding-left: 10px;
+}
+.container2
+{
+    margin-left: 150px;
+    display: flex;
+    
+}
+.container2 h3{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 7px;
+    width: 100px;
+    
+}
+.container2 h6
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 150px;
+}
+.Courses
+{
+  
+    width:50%;
+}
+.Courses hr
+{
+    margin-right: 40px;
+    color: dimgrey;
+   
+}
+.readyJob
+{
+    margin-top: 30px;
+    display: flex;
+}
+.imgReadyJob
+{
+    width: 50%;
+   
+}
+.imgReadyJob img{
+    height: 250px;
+   width:250px;
+    
+}
+.historyOneMillionArabs
+{
+    
+    font-size: 11px;
+    color: gray;
+}
+.anotherJop
+{
+    margin-top: -20px;
+}
+.containerReadyJop
+{
+    
+    padding-top: 20px;
+    padding-left: 20px;
+     display: flex;
+}
+
+
+.containerReadyJop img
+{
+   
+    height: 80px;
+    width: 25%;
+}
+.textAndDate
+{
+    padding-left: 20px;
+}
+.author
+{
+    display: flex;
+}
+.date
+{
+    color: #ccc;
+    margin-left: 5px;
+}
+
+.stayConnected
+{
+    width: 30%;
+}
+.stayConnected hr
+{
+   color: dimgray;
+}
+.connected
+{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+}
+
+#facebook,#twitter,#youtube
+{
+  
+    font-size: 20px;
+    padding: 15px;
+    width: 45px;
+}
+#facebook
+{
+     background-color: blue;
+}
+#twitter
+{
+    background-color: cyan;
+}
+#youtube
+{
+    background-color: red;
+}
+.fans
+{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.admire
+{
+    font-weight: bold;
+    margin-top: 10px;
+}
+#admireFacebook
+{
+margin-left: 170px;
+}
+#admireTwitter
+{
+    margin-left: 100px;
+}
+#admireyoutube
+{
+    margin-left:120px;
+}
+.advertisment
+{
+    margin-top: 50px;
+}
+.advertisment p
+{
+    color: dimgrey;
+    text-align: center;
+}
+.advertisment img
+{
+    margin-left: 20px;
+    width: 90%;
+}
+footer{
+    font-size: 14px;
+    bottom: 0;
+    
+    background-color:  	#333333;
+    width: 100%;
+}
+.footer1
+{
+    color: white;
+    display: flex;
+    margin-top: 50px;
+}
+.programOverview,.popularPost,.corsesFooter
+{
+    margin-top: 50px;
+    width: 30%;
+    padding-left: 10%;
+}
+.overviewContent
+{
+    margin-top:20px;
+    display: flex;
+}
+.overviewContent img
+{
+    
+    width: 20%;
+    height: 20%;
+}
+.overviewContent p
+{
+    padding-left: 20px;
+}
+.corsesFooter p
+{
+    margin-top: 20px;
+   
+}
+
+.hrfooter
+{
+    height: 1px;
+    margin: 20px 250px 0 250px;
+   background-color: gray;
+}
+.about
+{
+    color: white;
+    display: flex;
+    margin-top: 30px;
+    
+}
+.aboutUs
+{
+    text-align: center;
+    width: 70%;
+}
+.aboutUsContainer
+{
+    display: flex;
+    margin-top:20px;
+}
+.aboutUSLeft
+{
+    width: 32%;
+    margin-left: 130px;
+    display:flex;
+    font-style:oblique;
+}
+.million
+{
+    font-size: 12px;
+}
+.aboutUsRight
+{
+    
+     text-align:left;
+    font-size: 15px;
+}
+.contactMail
+{
+    margin-top:20px;
+}
+
+.followUS
+{
+    width: 30%;
+}
+.followUSContainer
+{
+    margin-left: -10px;
+    margin-top: 30px;
+    
+}
+#facebookFooter,#twitterFooter,#youtubeFooter
+{  margin-left: 10px;
+    font-size: 16px;
+    padding: 7px;
+    background-color: #1b1818;
+}
+.sponser
+{
+    margin-top: 40px;
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+    background-color: black;
+    height: 30px;
+}
